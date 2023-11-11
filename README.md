@@ -6,6 +6,7 @@ This will allow you to add new students to your database. This feature will allo
 ## Project Structure
 
 This project is structured as follows:
+E:.
 ├───src
 │   ├───main
 │   │   ├───java

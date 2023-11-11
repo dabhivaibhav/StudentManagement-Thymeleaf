@@ -4,39 +4,25 @@
 This will allow you to add new students to your database. This feature will allow you to input all the necessary information such first name, last name and email address. As well as it provides the feature to modify student details and delete a student.
 
 ## Project Structure
-src/
-┣ main/
-┃ ┣ java/
-┃ ┃ ┗ com/
-┃ ┃   ┗ example/
-┃ ┃ ┃   ┗ sms/
-┃ ┃ ┃ ┃   ┣ controller/
-┃ ┃ ┃ ┃ ┃ ┃ ┗ StudentController.java
-┃ ┃ ┃ ┃   ┣ Model/
-┃ ┃ ┃ ┃ ┃ ┃ ┗ Student.java
-┃ ┃ ┃ ┃   ┣ repository/
-┃ ┃ ┃ ┃ ┃ ┃ ┗ StudentRepository.java
-┃ ┃ ┃ ┃   ┣ service/
-┃ ┃ ┃ ┃ ┃ ┃ ┣ impl/
-┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ StudentServiceImpl.java
-┃ ┃ ┃ ┃ ┃ ┃ ┗ StudentService.java
-┃ ┃ ┃ ┃   ┗ StudentManagementSystemApplication.java
-┃ ┗ resources/
-┃   ┣ static/
-┃ ┃ ┃ ┗ styles/
-┃ ┃ ┃   ┗ css/
-┃ ┃ ┃ ┃   ┗ main.css
-┃   ┣ templates/
-┃ ┃ ┃ ┣ edit_student.html
-┃ ┃ ┃ ┣ studentadd.html
-┃ ┃ ┃ ┗ students.html
-┃   ┗ application.properties
-┗ test/
-  ┗ java/
-┃   ┗ com/
-┃ ┃   ┗ example/
-┃ ┃ ┃   ┗ sms/
-┃ ┃ ┃ ┃   ┗ StudentManagementSystemApplicationTests.java
+* [main/](.\src\main)
+  * [java/](.\src\main\java)
+    * [com/](.\src\main\java\com)
+      * [example/](.\src\main\java\com\example)
+        * [sms/](.\src\main\java\com\example\sms)
+  * [resources/](.\src\main\resources)
+    * [static/](.\src\main\resources\static)
+      * [styles/](.\src\main\resources\static\styles)
+        * [css/](.\src\main\resources\static\styles\css)
+    * [templates/](.\src\main\resources\templates)
+      * [edit_student.html](.\src\main\resources\templates\edit_student.html)
+      * [studentadd.html](.\src\main\resources\templates\studentadd.html)
+      * [students.html](.\src\main\resources\templates\students.html)
+    * [application.properties](.\src\main\resources\application.properties)
+* [test/](.\src\test)
+  * [java/](.\src\test\java)
+    * [com/](.\src\test\java\com)
+      * [example/](.\src\test\java\com\example)
+        * [sms/](.\src\test\java\com\example\sms)
  
 ## Installation
 

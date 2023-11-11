@@ -6,22 +6,28 @@ This will allow you to add new students to your database. This feature will allo
 ## Project Structure
 
 This project is structured as follows:
-* src/`
-    * main/`
-        * **java/`
-            * **com.example.sms`
-                    * **controller
-                    * **Model
-                    * **Repository
-                    * **Service
-                    * **StudentManagementSystemApplication.java
-    * **resources/`
-        * **static`
-            * **Style`
-                * **css`
-                    * **main.css
-        * **application.properties`
-* pom.xml`
+├───src
+│   ├───main
+│   │   ├───java
+│   │   │   └───com
+│   │   │       └───example
+│   │   │           └───sms
+│   │   │               ├───controller
+│   │   │               ├───Model
+│   │   │               ├───repository
+│   │   │               └───service
+│   │   │                   └───impl
+│   │   └───resources
+│   │       ├───static
+│   │       │   └───styles
+│   │       │       └───css
+│   │       └───templates
+│   └───test
+│       └───java
+│           └───com
+│               └───example
+│                   └───sms
+└───pom.xml
  
 ## Installation
 

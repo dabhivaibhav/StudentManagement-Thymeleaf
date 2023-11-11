@@ -9,12 +9,12 @@ This project is structured as follows:
 * src/`
     * main/`
         * **java/`
-            * **com.example.sms/`
-                    * **controller`
-                    * **Model`
-                    * **Repository`
-                    * **Service`
-                    * **StudentManagementSystemApplication.java`
+            * **com.example.sms`
+                    * **controller
+                    * **Model
+                    * **Repository
+                    * **Service
+                    * **StudentManagementSystemApplication.java
     * **resources/`
         * **static`
             * **Style`

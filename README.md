@@ -6,29 +6,25 @@ This will allow you to add new students to your database. This feature will allo
 ## Project Structure
 
 This project is structured as follows:
-Student-management-system:.
-├───src
-│   ├───main
-│   │   ├───java
-│   │   │   └───com
-│   │   │       └───example
-│   │   │           └───sms
-│   │   │               ├───controller
-│   │   │               ├───Model
-│   │   │               ├───repository
-│   │   │               └───service
-│   │   │                   └───impl
-│   │   └───resources
-│   │       ├───static
-│   │       │   └───styles
-│   │       │       └───css
-│   │       └───templates
-│   └───test
-│       └───java
-│           └───com
-│               └───example
-│                   └───sms
-└───pom.xml
+
+```
+├── example.json
+├── index.html
+├── index.js
+├── package.json
+├── package-lock.json
+├── README.md
+└── src
+    ├── app.js
+    ├── models.js
+    ├── routes.js
+    └── utils
+        ├── another.js
+        ├── constants.js
+        └── index.js
+```
+
+
  
 ## Installation
 

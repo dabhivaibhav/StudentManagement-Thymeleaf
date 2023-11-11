@@ -8,20 +8,29 @@ This will allow you to add new students to your database. This feature will allo
 This project is structured as follows:
 
 ```
-├── example.json
-├── index.html
-├── index.js
-├── package.json
-├── package-lock.json
-├── README.md
-└── src
-    ├── app.js
-    ├── models.js
-    ├── routes.js
-    └── utils
-        ├── another.js
-        ├── constants.js
-        └── index.js
+Student-management-system
+├───src
+│   ├───main
+│   │   ├───java
+│   │   │   └───com
+│   │   │       └───example
+│   │   │           └───sms
+│   │   │               ├───controller
+│   │   │               ├───Model
+│   │   │               ├───repository
+│   │   │               └───service
+│   │   │                   └───impl
+│   │   └───resources
+│   │       ├───static
+│   │       │   └───styles
+│   │       │       └───css
+│   │       └───templates
+│   └───test
+│       └───java
+│           └───com
+│               └───example
+│                   └───sms
+└───pom.xml
 ```
 
 

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Student Management System</title>
+	<link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/5.3.2/css/bootstrap.min.css}" />
+	<link th:href="@{/styles/css/main.css}" rel="stylesheet" />
+</head>
+
+<body class="bg-dark text-white">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" th:href="@{/students}">Student Management System</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" th:href="@{/students}">Home</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class=" blackdivgrad row text-center mt-3 mb-3 border-4">
+			<h1> Students List</h1>
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<a th:href="@{/students/create}" class="btn btn-sm mb-3 blackgradbutton text-center"> Add Student</a>
+			</div>
+		</div>
+		<table class="table table-dark table-striped table-bordered">
+			<thead>
+				<tr>
+					<th scope="col">Firstname</th>
+					<th scope="col">Lastname</th>
+					<th scope="col">Email Address</th>
+					<th scope="col">Actions</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="student : ${studentlist}">
+					<td th:text="${student.firstName}"></td>
+					<td th:text="${student.lastName}"></td>
+					<td th:text="${student.email}"></td>
+					<td>
+						<a th:href="@{/students/edit/{id}(id=${student.id})} " class="btn btn-primary">Update</a>
+						<a th:href="@{/students/{id}(id=${student.id})} " class="btn btn-danger">Delete</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+
+</html>

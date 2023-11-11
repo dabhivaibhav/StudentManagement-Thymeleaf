@@ -1,0 +1,32 @@
+body {
+	background: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+
+.blackgradbutton {
+	background-image: linear-gradient(to right, #232526 0%, #414345 51%, #232526 100%);
+	padding: 15px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	border-radius: 10px;
+}
+
+.blackgradbutton:hover {
+	background-position: right center;
+	/* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+}
+
+.purplegradbutton {
+	background: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+}
+
+.blackdivgrad {
+	background-image: linear-gradient(to right, #232526 0%, #414345 51%, #232526 100%);
+	border-radius: 10px;
+}

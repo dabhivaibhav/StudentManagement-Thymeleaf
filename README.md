@@ -4,18 +4,39 @@
 This will allow you to add new students to your database. This feature will allow you to input all the necessary information such first name, last name and email address. As well as it provides the feature to modify student details and delete a student.
 
 ## Project Structure
-
-This project is structured as follows:
-
-* src/`
-    * main/`
-        * **java/`
-            * **com/`
-                * **company/`
-                    * **MyProject.java`
-    * **resources/`
-        * **config.properties`
-* pom.xml`
+src/
+┣ main/
+┃ ┣ java/
+┃ ┃ ┗ com/
+┃ ┃   ┗ example/
+┃ ┃ ┃   ┗ sms/
+┃ ┃ ┃ ┃   ┣ controller/
+┃ ┃ ┃ ┃ ┃ ┃ ┗ StudentController.java
+┃ ┃ ┃ ┃   ┣ Model/
+┃ ┃ ┃ ┃ ┃ ┃ ┗ Student.java
+┃ ┃ ┃ ┃   ┣ repository/
+┃ ┃ ┃ ┃ ┃ ┃ ┗ StudentRepository.java
+┃ ┃ ┃ ┃   ┣ service/
+┃ ┃ ┃ ┃ ┃ ┃ ┣ impl/
+┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ StudentServiceImpl.java
+┃ ┃ ┃ ┃ ┃ ┃ ┗ StudentService.java
+┃ ┃ ┃ ┃   ┗ StudentManagementSystemApplication.java
+┃ ┗ resources/
+┃   ┣ static/
+┃ ┃ ┃ ┗ styles/
+┃ ┃ ┃   ┗ css/
+┃ ┃ ┃ ┃   ┗ main.css
+┃   ┣ templates/
+┃ ┃ ┃ ┣ edit_student.html
+┃ ┃ ┃ ┣ studentadd.html
+┃ ┃ ┃ ┗ students.html
+┃   ┗ application.properties
+┗ test/
+  ┗ java/
+┃   ┗ com/
+┃ ┃   ┗ example/
+┃ ┃ ┃   ┗ sms/
+┃ ┃ ┃ ┃   ┗ StudentManagementSystemApplicationTests.java
  
 ## Installation
 
